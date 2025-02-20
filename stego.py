@@ -2,7 +2,7 @@ import cv2
 import os
 import string
 
-img = cv2.imread("E:\Internship\ACITE Cyber Security\Steno Project\Stenography-main\mypic.jpg") # Replace with the correct image path
+img = cv2.imread("normal picture.jpg") # Replace with the image path
 
 msg = input("Enter secret message:")
 password = input("Enter a passcode:")
